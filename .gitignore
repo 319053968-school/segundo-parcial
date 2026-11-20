@@ -1,0 +1,49 @@
+# Caché y compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Empaquetado
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secretos — NUNCA subir
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+*-key.json
+gcloud-*.json
+.aws/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Datos locales
+*.db
+*.sqlite3
+data/raw/
